@@ -1,0 +1,6 @@
+{
+  "name": "project-hunter-intel",
+  "version": "1.0.0",
+  "description": "Evidence-led public-source job research skill: discover, verify, and score vacancies and hiring signals without fabricating facts or acting without consent.",
+  "skills": "./skills/"
+}

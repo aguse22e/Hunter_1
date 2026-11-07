@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+  <title id="title">Project Hunter — Evidence-Led AI Job-Search Skill</title>
+  <desc id="desc">Banner for the Project Hunter AI skill and reference package. On a dark grid, search arcs and evidence markers distinguish verified vacancies from inferred hiring signals. The package guides an AI host; it is not a live job-search service.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#091522"/>
+      <stop offset="1" stop-color="#102a3b"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity=".36"/>
+    </linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" fill="none" stroke="#8aa4b8" stroke-opacity=".12" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.5" fill="#8aa4b8" fill-opacity=".2"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="480" rx="28" fill="url(#panel)"/>
+  <rect width="1600" height="480" rx="28" fill="url(#grid)"/>
+  <path d="M0 348C260 274 368 486 652 404s394-174 621-111 237 85 327 45v142H0Z" fill="#123549" fill-opacity=".52"/>
+  <g opacity=".86" fill="none" stroke="#6d8ca0" stroke-width="1.2">
+    <path d="M1000 102h495M1040 145h420M1016 188h472M1060 231h386M1028 274h450M1074 317h360M1032 360h468" stroke-dasharray="3 9"/>
+    <path d="M1080 64v340M1150 64v340M1220 64v340M1290 64v340M1360 64v340M1430 64v340" stroke-dasharray="3 10"/>
+  </g>
+  <g fill="none" stroke="#2dd4bf" stroke-width="2">
+    <circle cx="1290" cy="238" r="154" stroke-opacity=".28"/>
+    <circle cx="1290" cy="238" r="108" stroke-opacity=".42"/>
+    <circle cx="1290" cy="238" r="58" stroke-opacity=".66"/>
+    <path d="M1290 62v352M1114 238h352" stroke-opacity=".26"/>
+    <path d="M1290 238 1430 123A181 181 0 0 1 1461 238Z" fill="url(#beam)" stroke="none"/>
+    <path d="M1290 238 1430 123" stroke-opacity=".82"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="1290" cy="238" r="6" fill="#f0b35b"/>
+    <circle cx="1430" cy="123" r="5" fill="#2dd4bf"/>
+    <circle cx="1182" cy="176" r="4" fill="#80a9ff"/>
+    <circle cx="1353" cy="331" r="4" fill="#2dd4bf"/>
+    <circle cx="1228" cy="332" r="3" fill="#f0b35b"/>
+  </g>
+  <g fill="none" stroke="#91aebf" stroke-opacity=".62" stroke-width="1.5">
+    <path d="M1182 176 1290 238 1353 331M1290 238 1228 332M1290 238 1430 123"/>
+  </g>
+  <text x="100" y="110" fill="#79e1d2" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="4">PUBLIC-SOURCE CAREER INTELLIGENCE</text>
+  <text x="96" y="198" fill="#f1f6fa" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="800" letter-spacing="-2">PROJECT HUNTER</text>
+  <text x="101" y="250" fill="#b7c8d4" font-family="Arial,Helvetica,sans-serif" font-size="27" letter-spacing="2">PUBLIC-SOURCE JOB-SEARCH SKILL</text>
+  <path d="M102 290h548" stroke="#2dd4bf" stroke-width="2" stroke-opacity=".76"/>
+  <text x="101" y="334" fill="#e4edf2" font-family="Arial,Helvetica,sans-serif" font-size="23">Search wide. Verify hard. Act with evidence.</text>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing=".7">
+    <rect x="101" y="382" width="166" height="36" rx="18" fill="#103b42" stroke="#2dd4bf" stroke-opacity=".8"/>
+    <text x="122" y="405" fill="#7ae0d1">VERIFIED VACANCY</text>
+    <rect x="281" y="382" width="192" height="36" rx="18" fill="#3d3020" stroke="#f0b35b" stroke-opacity=".8"/>
+    <text x="301" y="405" fill="#f0c47e">SIGNAL ≠ OPENING</text>
+    <rect x="487" y="382" width="153" height="36" rx="18" fill="#1c2d42" stroke="#80a9ff" stroke-opacity=".8"/>
+    <text x="512" y="405" fill="#a9c4ff">SOURCES FIRST</text>
+  </g>
+  <text x="101" y="454" fill="#7f98a9" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="1">EVIDENCE-LED · PUBLIC SOURCES · HUMAN-CONTROLLED ACTION</text>
+</svg>
